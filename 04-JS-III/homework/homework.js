@@ -206,21 +206,8 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
-  numerosAumentados = [];
-  numeroSumado = numero;
-  for (let i = 0; i < 10; i++) {
-    numeroSumado += 2;
-    if (numeroSumado === i ) {
-      break;
-    } else {
-      numerosAumentados.push(numeroSumado);
-    }
-    if (i < 10 ) {
-      return "Se interrumpió la ejecución";
-    } else {
-      return numerosAumentados;
-    }
-  }
+  
+
 }
 
 
