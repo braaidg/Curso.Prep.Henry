@@ -9,7 +9,8 @@ function crearGato(nombre, edad) {
   let nuevoGato = {
     "nombre": nombre,
     "edad": edad,
-    "meow": function meow() {return "Meow!"
+    "meow": function () {
+      return "Meow!";
   }
 }
 return nuevoGato;
